@@ -1,10 +1,10 @@
-# Suppose if you want to add string value with any other integer value, you need to use type casting in order
+# Suppose if you want to change any string value type with any other integer type value, you need to use type casting in order
 # to convert the string value into integer value. Otherwise, it will give you an error.
 
-# a = "2"
-# b = 3.45
+a = "2"
+b = 3.45
 
-# print(a + b)  # This will give an error because you cannot add a string and a float directly.
+print(a + b)  # This will give an error because you cannot add a string and a float directly.
 
 a = int("2")
 b = 3.45

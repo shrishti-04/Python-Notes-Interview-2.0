@@ -1,11 +1,11 @@
-# name = input("Please enter your name: ")
-# age = int(input("Please enter your age: "))
-# marks = float(input("Please enter your marks: "))
+name = input("Please enter your name: ")
+age = int(input("Please enter your age: "))
+marks = float(input("Please enter your marks: "))
 
-# print("Hello " + name + ", you are " + str(age) + " years old and your marks are " + str(marks) + ".")
-# print(type(name))
-# print(type(age))
-# print(type(marks))
+print("Hello " + name + ", you are " + str(age) + " years old and your marks are " + str(marks) + ".")
+print(type(name))
+print(type(age))
+print(type(marks))
 
 # Write a program to input two numbers & print their sum
 
