@@ -47,3 +47,15 @@ if(num % 7 == 0):
     print("Provided number is a multiple of 7")
 else:
     print("Provided number is not a multiple of 7")
+
+# WAP in order to check whether user can drive car or not (using nested if-else)
+
+n = int(input("Enter your age: "))
+
+if(n >= 18):
+    if(n >= 80):
+        print("Cannot drive the car")
+    else:
+        print("Can drive the car")
+else:
+    print("Can drive the car")
